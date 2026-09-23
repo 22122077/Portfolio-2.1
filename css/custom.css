@@ -49,8 +49,12 @@ h2.my_h1{
 /* add padding to top for fixed nav bar example */
 body {
   padding-top: 3rem;
+  font-family: "Plus Jakarta Sans", sans-serif ;
 }
 
+.site-nav {
+  font-family: "Scope One", serif;
+}
 /* column highlighting and content spacing */
 .row {
   margin-bottom: 1rem;
