@@ -8,7 +8,7 @@
   If you take the AI-assisted code animation option, that code must ALSO be
   wrapped in inline start/end comments, and you must be able to explain it.
 
-  First name:       [Your First Name]
+  First name:       Mina
   File:             custom.css
 
   Tool/Source:      [e.g. ChatGPT / Claude / GitHub Copilot / getbootstrap.com / none]
@@ -30,9 +30,8 @@
 /* Custom template styles - start here  */
 
 /* Examples of adding to Bootstrap classes with your own classes */
-h1{
-  font-family: "Times New Roman", serif;
-
+h1, h2, h3 {
+  font-family: "Scope One", serif;
 }
 
 h2.my_h1{
@@ -48,15 +47,50 @@ h2.my_h1{
 
 /* add padding to top for fixed nav bar example */
 body {
-  padding-top: 3rem;
   font-family: "Plus Jakarta Sans", sans-serif ;
+  color: #2b2b2b;
+  background-color: #faf8f7;
 }
 
 .site-nav {
   font-family: "Scope One", serif;
 }
+
+.site-nav .navbar-brand {
+  font-size: 1.35;
+}
+
+.site-nav .nav-link.active {
+  color: rgb(233, 129, 146);
+  border-bottom: 1px solid #b87586;
+}
+
+.page-content {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.page-content h1 {
+  font-size: 2.75rem;
+  margin-bottom: 3rem;
+}
+
+.statement-item {
+  border-top: 2px solid #b87586;
+  padding-top: 1.5rem;
+}
+
+.statement-item h2 {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.statement-item p {
+  line-height: 1.7;
+}
+
 /* column highlighting and content spacing */
-.row {
+/* .row {
   margin-bottom: 1rem;
 }
 .row .row {
@@ -69,7 +103,7 @@ body {
   background-color: rgba(10, 10, 10, .15);
   border: 1px solid rgba(86, 61, 255, .2);
   border-radius: 1rem;
-}
+} */
 
 hr {
   margin-top: 2rem;
@@ -90,35 +124,35 @@ html {
 @media (max-width: 575.98px) {
 
   p{
-    color: red;
+    color: black;
   }
 }
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
   p{
-    color: green;
+    color: black;
   }
 }
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
   p{
-    color: blue;
+    color: black;
   }
 }
 
 /* // Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
   p{
-    color: orange;
+    color: black;
   }
 }
 
 /* // Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
   p{
-    color: grey;
+    color: black;
   }
 }
 
