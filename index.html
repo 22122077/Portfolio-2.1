@@ -18,10 +18,11 @@
       First name:       Mina
       File:             index.html
 
-      Tool/Source:      [e.g. ChatGPT / Claude / GitHub Copilot / getbootstrap.com / none]
-      Used for:         [e.g. adapting a Bootstrap grid row for my own layout]
-      Extent of use:    [e.g. small snippet suggested, then adapted by hand]
-      Date:             [DD Month 2026]
+      Tool/Source:       Bootstrap
+      Used for:         Nav Bar
+      Extent of use:    used starter for base of nav bar
+      Date:             23 Sept 2026
+
 
       If no AI or open-source code was used in this file, replace the above with:
       "No AI or open-source code was used in this file."
@@ -72,8 +73,53 @@
 
 
    <body>
-    <!-- Content goes here -->
-    <div class="container">
+
+    <!-- Nav Bar -->
+
+     <!-- Source: Bootstrap (https://getbootstrap.com/docs/5.3/components/navbar/) — Base of Nav Bar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+
+        <a class="navbar-brand" href="index.html">Project 2.1</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Statement</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Storyboard</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Analysis</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sitemap</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sketches</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Wireframes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Designs</a>
+            </li>
+          </ul>
+          
+        </div>
+      </div>
+    </nav>
+
+    <!-- MAIN -->
+
+    <main class="container">
       <h1>Bootstrap</h1>
       <h2 class="my_h1">My Bootstrap Journey Starts Here...</h2>
       <!-- IDEA: to get started try out Bootstrap's grid classes on semantic elements: https://getbootstrap.com/docs/5.3/layout/grid/-->
@@ -83,7 +129,7 @@
 
 
 
-    </div><!-- end container -->
+    </main>
 
 
     <!-- =================No Content below here========================= -->
