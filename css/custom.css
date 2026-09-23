@@ -1,0 +1,127 @@
+@charset "UTF-8";
+
+/*
+  ================= AI / SOURCE USE DECLARATION (DRAFT — COMPLETE THIS) =================
+  Per DESN1021 Project 2.1 Assessment Specifications, a summary declaration is
+  required at the top of EVERY file. Replace the bracketed placeholders below,
+  and add inline acknowledgements next to any AI/open-source snippet you use.
+  If you take the AI-assisted code animation option, that code must ALSO be
+  wrapped in inline start/end comments, and you must be able to explain it.
+
+  First name:       [Your First Name]
+  File:             custom.css
+
+  Tool/Source:      [e.g. ChatGPT / Claude / GitHub Copilot / getbootstrap.com / none]
+  Used for:         [e.g. overriding a Bootstrap breakpoint for my hero type]
+  Extent of use:    [e.g. small snippet suggested, then adapted by hand]
+  Date:             [DD Month 2026]
+
+  If no AI or open-source code was used in this file, replace the above with:
+  "No AI or open-source code was used in this file."
+
+  Declaration ref: DESN1021-Pro2.1-AIDECL#KIT-custom-2fe0bb1b2c0045ce97f63ffa0ff3bea1
+  =====================================================================================
+*/
+/* Project 2 Blank Bootstrap 5.3 starter template for DESN1021, Web & Time Based Design. <div> tags should be replaced with semantic HTML tags where appropriate  [DESN1021-Pro2#1-7bddd3e6991c22bb4d3432b663b01bd5] DO NOT DELETE THIS COMMENT */
+
+
+/* Custom styles to override and/or add to Bootstrap css */
+
+/* Custom template styles - start here  */
+
+/* Examples of adding to Bootstrap classes with your own classes */
+h1{
+  font-family: "Times New Roman", serif;
+
+}
+
+h2.my_h1{
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: rgba(86, 61, 255, .75);
+}
+
+
+
+/* -------------------------------------------------------- */
+/* Custom CSS for highlighting grid examples and options - Not essential to use in your own design.*/
+
+/* add padding to top for fixed nav bar example */
+body {
+  padding-top: 3rem;
+}
+
+/* column highlighting and content spacing */
+.row {
+  margin-bottom: 1rem;
+}
+.row .row {
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+[class*="col-"] {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: rgba(10, 10, 10, .15);
+  border: 1px solid rgba(86, 61, 255, .2);
+  border-radius: 1rem;
+}
+
+hr {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* -------------------------------------------------------- */
+
+/* sets the default rem size for an entire page (for all sizing to be relative to) */
+
+html {
+  font-size: 1rem;
+}
+
+/* Examples of customising Bootstrap's media queries at different 'snapping' points - for example, change the size of your browser window and watch the <p> text colour change. Don't EVER change the pixel variables or you will be creating snapping points between Bootstrap's default snapping points - just add your styles in the brackets of the @media queries*/
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+  p{
+    color: red;
+  }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  p{
+    color: green;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  p{
+    color: blue;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  p{
+    color: orange;
+  }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  p{
+    color: grey;
+  }
+}
+
+/* -------------------------------------------------------- */
+
+
+/* Project 2 Blank Bootstrap 5.3 starter template for DESN1021, Web & Time Based Design. <div> tags should be replaced with semantic HTML tags where appropriate  [DESN1021-Pro2#1-7bddd3e6991c22bb4d3432b663b01bd5] DO NOT DELETE THIS COMMENT */
+
+/* END AI / SOURCE USE DECLARATION — nothing to fill in here; the completed declaration goes in the top comment. Do not delete.
+   Declaration ref: DESN1021-Pro2.1-AIDECL#KIT-custom-2fe0bb1b2c0045ce97f63ffa0ff3bea1 */
