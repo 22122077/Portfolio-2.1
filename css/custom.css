@@ -89,21 +89,35 @@ body {
   line-height: 1.7;
 }
 
-/* column highlighting and content spacing */
-/* .row {
-  margin-bottom: 1rem;
+
+/* Analysis Styling */
+.analysis-section {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  border-top: 2px solid #b87586;
 }
-.row .row {
-  margin-top: 1rem;
-  margin-bottom: 0;
+
+.analysis-desktop {
+  width: 100%;
+  max-width: 1100px;
+  height: auto;
+  margin-top: 2rem;
 }
-[class*="col-"] {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  background-color: rgba(10, 10, 10, .15);
-  border: 1px solid rgba(86, 61, 255, .2);
-  border-radius: 1rem;
-} */
+
+.analysis-mobile {
+  width: 100%;
+  max-width: 266px;
+  height: auto;
+}
+
+.analysis-link {
+  color: #b87586;
+  text-decoration: none;
+}
+
+.analysis-link:hover {
+  text-decoration: underline;
+}
 
 hr {
   margin-top: 2rem;
