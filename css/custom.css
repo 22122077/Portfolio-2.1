@@ -41,6 +41,11 @@ h2.my_h1{
 }
 
 
+.section-style {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  border-top: 2px solid #b87586;
+}
 
 /* -------------------------------------------------------- */
 /* Custom CSS for highlighting grid examples and options - Not essential to use in your own design.*/
@@ -91,12 +96,6 @@ body {
 
 
 /* Analysis Styling */
-.analysis-section {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  border-top: 2px solid #b87586;
-}
-
 .analysis-desktop {
   width: 100%;
   max-width: 1100px;
@@ -117,6 +116,23 @@ body {
 
 .analysis-link:hover {
   text-decoration: underline;
+}
+
+/* Wireframes Styling */
+.wireframe-image {
+  width: auto;
+  max-width: 100%;
+  max-height: 430px;
+}
+
+.wireframe-label {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.wireframe-section {
+  font-size: 1.75rem;
+  margin-bottom: 2rem;
 }
 
 hr {
