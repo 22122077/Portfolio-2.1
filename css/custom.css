@@ -177,6 +177,14 @@ body {
   line-height: 1.7;
 }
 
+/* Sketch Styling */
+
+.sketch-image {
+  width: 100%;
+  max-width: 1100px;
+  height: auto;
+}
+
 hr {
   margin-top: 2rem;
   margin-bottom: 2rem;
