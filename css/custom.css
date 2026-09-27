@@ -185,6 +185,14 @@ body {
   height: auto;
 }
 
+/* Sitemap Styling */
+
+.sitemap-image {
+  width: 100%;
+  max-width: 1200px;
+  height: auto;
+}
+
 hr {
   margin-top: 2rem;
   margin-bottom: 2rem;
