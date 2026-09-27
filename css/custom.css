@@ -47,6 +47,11 @@ h2.my_h1{
   border-top: 2px solid #b87586;
 }
 
+.section-style h2 {
+  font-size: 1.75rem;
+  margin-bottom: 2rem;
+}
+
 /* -------------------------------------------------------- */
 /* Custom CSS for highlighting grid examples and options - Not essential to use in your own design.*/
 
@@ -62,7 +67,7 @@ body {
 }
 
 .site-nav .navbar-brand {
-  font-size: 1.35;
+  font-size: 1.35rem;
 }
 
 .site-nav .nav-link.active {
@@ -130,9 +135,18 @@ body {
   margin-bottom: 1rem;
 }
 
-.wireframe-section {
+.wireframe-section h2 {
   font-size: 1.75rem;
   margin-bottom: 2rem;
+}
+
+
+/* Screen Design Styling */
+
+.design-image {
+  width: 100%;
+  max-width: 1200px;
+  height: auto;
 }
 
 hr {
