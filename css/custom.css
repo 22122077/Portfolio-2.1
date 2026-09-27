@@ -155,6 +155,28 @@ body {
   height: auto;
 }
 
+/* Screen Design Styling */
+
+.storyboard-image {
+  width: 100%;
+  max-width: 1200px;
+  height: auto;
+}
+.storyboard-notes {
+  max-width: 900px;
+  margin: 1.5rem auto 0;
+}
+
+.storyboard-time {
+  color: #b87586;
+  font-size: 0.95rem;
+  margin-bottom: 0.75rem;
+}
+
+.storyboard-notes p {
+  line-height: 1.7;
+}
+
 hr {
   margin-top: 2rem;
   margin-bottom: 2rem;
