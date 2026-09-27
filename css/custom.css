@@ -52,6 +52,12 @@ h2.my_h1{
   margin-bottom: 2rem;
 }
 
+.page-intro {
+  max-width: 800px;
+  line-height: 1.7;
+  margin-bottom: 3rem;
+}
+
 /* -------------------------------------------------------- */
 /* Custom CSS for highlighting grid examples and options - Not essential to use in your own design.*/
 
