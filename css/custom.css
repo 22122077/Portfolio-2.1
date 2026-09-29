@@ -177,6 +177,12 @@ body {
   line-height: 1.7;
 }
 
+.storyboard-composition {
+  width: 100%;
+  max-width: 1200px;
+  height: auto;
+}
+
 /* Sketch Styling */
 
 .sketch-image {
